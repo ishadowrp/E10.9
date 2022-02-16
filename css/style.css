@@ -247,7 +247,7 @@
 .description-text-right {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0 20px 20px;
 }
 
 .img-tech-wrapper {
@@ -287,7 +287,7 @@
     padding: 0;
     height: 0;
     border: none;
-    border-top: 2px solid #333;
+    border-top: 2px solid;
     border-color: cadetblue;
 
     /*margin: -30px auto 10px;*/
