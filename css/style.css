@@ -318,7 +318,7 @@
     display: block;
     padding: 20px 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    background: antiquewhite;
+    background: #faebd7;
     border-radius: 5px;
     color: white;
     margin: 5px;
@@ -373,7 +373,7 @@
 
 .btn-contact-us {
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     min-height: 45px;
@@ -409,6 +409,23 @@
     word-break: break-all;
 }
 
+.footer {
+    display: flex;
+    background-color: #2D2D2D;
+    color: white;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
 @media (min-width: 1040px) {
     .burger-container {
         display: none;
@@ -436,6 +453,18 @@
         display: block;
         margin: 20px 20px;
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-us-wrapper {
+        display: block;
+    }
+    .form-to-input {
+        max-width: 100%;
+    }
+    .my-contact-info {
+        max-width: 100%;
     }
 }
 
